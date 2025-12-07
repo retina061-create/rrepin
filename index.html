@@ -6,52 +6,54 @@
 	<title>Ilya Yefimovich Repin</title>
 	<style>
 		body,section,h1,p,img{position:relative;}
-		html{scroll-behavior: smooth;}
 		body {font-family:serif; position:relative; background: black; color:white; margin: 0; 
 			text-align: center; font-size:3rem;}
-		h1 {margin-top: 100px; margin-bottom: 0px; z-index: 100;}
-		.repin {position: absolute; left:0; margin-top:20px; margin-left:320px; z-index: 0px;} 
+		html{scroll-behavior: smooth;}
+		h1 {margin-top: 50px; margin-bottom: 0px; z-index: 100;}
 		p {font-size: 1rem;}
-		.top {position: fixed; top:50%; font-align:left; right: 5%; z-index: 10; text-shadow: 1px 1px 3px black; color:white; font-size:1rem;}
+		.repin {position: absolute; width: 60%; left:0; margin-top:2%; margin-left:19%; z-index: 0;} 
+		.top {position: fixed; top:500px;display: block; right:50px; z-index: 10; text-shadow: 1px 1px 3px black; color:white; font-size:1rem;}
 		.year1 {margin-top: 20px;}
-		.pp {margin-top: 560px;}
+		.pp {margin-top: 580px;}
 		.aaa {margin-top: 400px; line-height: 10;}
 		.aa {line-height: 20; font-size: 1.5rem;}
-		.ga {position: absolute; right: 50px; top:0px; width: 700px;}
-		.man {position: absolute; top:400px; left: 300px; width: 350px;}
-		.ivan {position: absolute; top:950px; right: 20px; width: 650px;}
-		.girl {position: absolute; top:1400px; left: 200px; width: 600px;}
+		.ga {position: absolute; right: 50px; top:0px; width: 40%; z-index: -10;}
+		.man {position: absolute; top:350px; left: 300px; width: 23%; z-index: -10;}
+		.ivan {position: absolute; top:950px; right: 20px; width: 40%;z-index: -10;}
+		.girl {position: absolute; top:1400px; left: 200px; width: 40%;z-index: -10;}
 		.name1 {margin-top: 50px; font-size: 2.5rem; margin-bottom: 30px;}
 		.vol {margin-top: 20px; line-height: 1;}
 		.volga {position: relative; left: 0; width: 100%; margin-top: 400px;}
 		.gang {position: absolute; left: 0; width:100%; padding-top:70px; z-index: -1;}
-		.B {margin-top:200px; margin-bottom:200px; line-height: 30px;}
-		.ca {position: absolute; width: 100%; left: 0;}
-		.C {position:relative; width:500px; padding-top:25%; line-height: 25px;
-			padding-left: 45%; text-align: left; text-shadow: 2px 2px 5px black;}
-		.canin {position:absolute; text-align: left ; width: 550px; padding-top: 300px; left:180px; }
-		.D {position:relative; width:500px; padding-top:74%; line-height: 25px;
-			padding-left: 21%; text-align: right; text-shadow: 2px 2px 5px black;}
-		.bo {position: absolute; width: 100%; left: 0; padding-top: 800px;}
-		.boy {position:absolute; text-align:right ; width: 450px; padding-top: 1000px; right: 120px;}
-		.E {width:500px; padding-top:75%; line-height: 25px;
-			padding-left: 45%; text-align:left; text-shadow: 2px 2px 5px black;}
-		.ol {position:absolute; width: 100%; left: 0; padding-top: 800px;}
-		.old {position:absolute; width: 800px; padding-top: 73%; left: 12%;}
-		.flag {position:absolute; width: 100%; left: 0; padding-top: 800px;}
-		.F {width:500px; padding-top:74%; line-height: 25px; padding-left: 33%; text-align:left;text-shadow: 1px 1px 4px black;}
-		.G {width:500px; padding-top:8%; line-height: 25px; padding-left: 45%; text-align:right; text-shadow: 1px 1px 4px black;}
-		.H {padding-top: 0%; line-height:2; }
-		.I {padding-top: 20%; padding-bottom: 15%; line-height:4; }
-		.vo {position:relative; text-align:left;padding-top:40%; width:60%;}
-		.p4 {position:absolute; width:30%; padding-top: 95%; text-align:left; left:18%;}
-		.p2 {position:absolute; width:20%;padding-top: 130%; text-align:left; right:15%;}
-		.nobody {position: relative; left: 0; width: 50%; padding-top:1000px;}
-		.noone {position: absolute; left: 0; width:100%; padding-top:500px; z-index: -1;}
-		.man1 {position: absolute; width: 100%; left: 0; padding-top:5%;}
-		.man2 {position:absolute; text-align:left ; width:35%; padding-top:12%; left:4%;}
-		.AA {position:relative; width:500px; padding-top:24%; line-height: 25px;
-			padding-left: 42%; text-align: left; text-shadow: 3px 3px 4px black;}
+		.B {margin-top:200px; line-height: 30px; padding-bottom: 300px;}
+		.C {width:500px; padding-top:430px; line-height: 25px; padding-bottom:400px;
+			padding-left: 750px; text-align: left; text-shadow: 2px 2px 5px black;}
+		.ca {position: absolute; width:1690px; left: 0; top:0;}
+		.canin {position:absolute; text-align: left ; width: 35%; top:300px; left:180px; z-index:100; }
+		.D {padding-top:300px;padding-bottom:400px;}
+			.dd {width:500px; line-height: 25px; padding-top:430px; padding-left: 390px; text-align: right; text-shadow: 2px 2px 5px black;}
+		.bo {position: absolute; width: 1690px; left: 0; padding-top:0;}
+		.boy {position:absolute; text-align:right ; width: 25%; padding-top: 330px; right: 130px; }
+		.E {padding-top:300px; padding-bottom:400px;}
+			.ee {width:500px; padding-top:450px; line-height: 25px;
+			padding-left: 750px; text-align:left; text-shadow: 2px 2px 5px black;}
+		.ol {position:absolute; width: 1690px; left: 0; z-index: -10;}
+		.old {position:absolute; width: 800px;  left: 12%; padding-top: 470px;}
+		.flag {position:absolute; width: 1690px; left: 0; padding-top: 400px;}
+		.F {width:500px; padding-top:830px;line-height: 25px; padding-left: 550px;; text-align:left;text-shadow: 1px 1px 4px black;}
+		.G {width:500px; padding-top:370px;; line-height: 25px; padding-left: 510px;; text-align:right; text-shadow: 1px 1px 4px black;}
+		.H {padding-bottom: 200px; line-height:2; }
+		.I {padding-bottom: 200px; pa line-height:4; }
+		.vo {position:relative; text-align:left;padding-top:400px; width:70%;}
+		.p4 {position:absolute; width:30%; padding-top: 1200px; text-align:left; left:250px;}
+		.p2 {position:absolute; width:20%;padding-top: 1800px; text-align:left; right:300px;}
+		.nobody {position: relative; left: 0; width: 50%; padding-top:600px;}
+		.noone {position: absolute; left: 0; width:1690px; padding-top:200px; z-index: -1;}
+		.bb {padding-top:200px; line-height: 30px; }
+		.AA {padding-top: 250px;}
+		.man1 {position: absolute; width: 1690px; left: 0;}
+		.man2 {position:absolute; text-align:left ; width:30%; padding-top:100px; left:100px;}
+			.aaaa {width:500px; padding-top:310px; line-height: 25px; padding-left: 700px; text-align: left; text-shadow: 3px 3px 4px black;}
 
 	</style>
 
@@ -119,9 +121,9 @@
 </section>
 
 <section>
+	<div class="C">
 	<img src="카닌.png" class="ca">
 	<img src="인부1.png" class="canin">
-	<div class="C">
 		<p>파문당한 사제 카닌.<br><br>
 		레핀 자신에게 많은 정신적 영향을 준 카닌을 <br>
 		민중의 현자로 제시하고 대열을 이끌어가도록 했다.<br>
@@ -131,11 +133,10 @@
 </section>
 
 <section>
+	<div class="D">
 	<img src="소년.png" class="bo">
 	<img src="인부2.png" class="boy">
-	<div class="D">
-		<p>
-			붉은 옷을 입은 소년.<br><br> 
+		<p class="dd">붉은 옷을 입은 소년.<br><br> 
 			일이 익숙하지 않은지 띠를 엉성히 잡고 있다.<br>
 			다른 인부들과 달리 허리를 곧게 펴고 눈을 들어 먼 곳을 응시한다.<br>
 			소년이 바라보는 것은 그들이 지향하는 이상향이다.<br>
@@ -145,10 +146,10 @@
 </section>
 
 <section>
+	<div class="E">
 	<img src="노인.png" class="ol">
 	<img src="인부3.png" class="old">
-	<div class="E">
-		<p>
+		<p class="ee" >
 			고개를 돌려 현실을 부정하는 인부.<br><br>
 			깊이 파인 주름이 삶의 고단함을 드러낸다.<br>
 			헤어나지 못할 현실의 무게에 오직 침묵만으로 버티는<br>
@@ -196,7 +197,7 @@
 		<p class="name1">아무도 기다리지 않았다.</p>
 			<p>1888</p>
 
-		<p class="B">
+		<p class="bb">
 			1879년에 결성된 러시아 제국의 “인민의 의지당”은 농민 봉기를 끌어내 <br>
 			보수적인 차르 전제정을 무너뜨리려고 했다.<br>
 			그러나 너무나 급진적인 선전과 부채질은 대다수에게 거부감만 신어줬고,<br>
@@ -210,10 +211,10 @@
 </section>
 
 <section>
+	<div class="AA">
 	<img src="혁명가.png" class="man1">
 	<img src="남자.png" class="man2">
-	<div class="AA">
-		<p>혁명가.<br><br>
+		<p class="aaaa">혁명가.<br><br>
 			가족을 버리고 민중을 위한 정치 활동에 투신하다 체포되었던 그는<br>
 			모진  고문과 긴 유형 생활을 끝내고  집에 돌아왔다.<br>
 			피곤하고 남루해보이는 모습이지만  눈빛은 살아있다.<br>
@@ -221,84 +222,7 @@
 	</div>
 </section>
 
-<section>
-	<img src="어머니.png" class="bo">
-	<img src="엄마.png" class="boy">
-	<div class="D">
-		<p>
-			혁명가의 어머니.<br><br>
-			아들이 죽었을거라 생각하며 검은 옷을 입었지만<br>
-			죽을 줄만 알았던 아들이 살아돌아왔다.<br>본능적인 놀라움과 반가움에 자리에서 일어났지만<br>
-			차마 사내를 향해 달려가지는 못하고 엉거주춤 서있다.
-		</p>
-	</div>
-</section>
-
-<section>
-	<img src="볼가배경.png" class="plag">
-	<div class="E">
-		<p>
-			벽에는 차르 전쟁을 맹렬하게 비판한 시인 타라스 셰브쳰코,<br>
-			농민의 아픔을 소재로 한 시인 니콜라이 네크라소프의 초상화와<br>
-			이들 사이 희생을 상징하는 그리스도의 그림이 중앙에 걸려있다.<br><br>
-			사내가 밖에서도, 안에서도 뼛 속 깊이 <br>인민의 의지당원이었음을 상징하는 소품이다.
-		</p>
-	</div>
-</section>
-
-<section>
-	<img src="노인.png" class="ol">
-	<img src="인부3.png" class="old">
-	<div class="E">
-		<p>
-			혁명가의 아내.<br><br>
-			남편의 예고치 않은 귀환에 놀란 기색으로 바라보지만 <br>
-			그를 향한 눈빛은 메말라있다.<br>
-			오랜만에 본 남편의 모습에도 반가움은 없이<br>
-			놀란 기색만 역력하다.
-		</p>
-	</div>
-</section>
-
-<section>
-	<img src="노인.png" class="ol">
-	<img src="인부3.png" class="old">
-	<div class="E">
-		<p>
-			남자의 아이들.<br><br>
-			조금 큰 아들은 어릴 적 아빠의 기억이 남아있는지 반가운 표정이다.<br>
-			반면 어린 동생의 기억 속에 아빠의 존재는 없는지 <br>
-			낯선 남자의 등장에 경계의 눈빛만 가득하다.
-		</p>
-	</div>
-</section>
-
-<section>
-	<img src="볼가.png" class="vo">
-	<img src="인부4.png" class="p4">
-	<img src="인부2.png" class="p2">
-	<div>
-		<p class="H">오랜 유형을 끝내고 막 집으로 돌아온 혁명가와 그를 맞이하는 가족들.<br>그들 사이에는 애틋함과 반가움이 아닌 오묘한 긴장감이 흐른다.<br>
-		서로의 생사도 알 지 못한 채,<br>
-		혁명가는 대의를 위한 삶을, 고향의 가족들은 묵묵히 일상을 보냈다. </p><br><br>
-
-		<p class="I">남자가 들어온 입구가 아닌  화면 옆의 정원에서 따뜻한 빛이 들어오고 있다.<br>
-		햇살이 부드럽게 비추는 오후의 평안을 깨고 그가 돌아온 것이다.</p>
-
-		<p class="H">놀라움과 반가움, 경계와 두려움.<br>모두의 시선 한 가운데 그가 있다.</p>
-
-		<p class="H">그가 오랫동안 바란 재회의 순간은 이런 모습은 아니었을 것이다. </p>
-
-		<p class="H">대의를 위해 가족을 떠난 가장,<br>일상을 지키며 생활하던 가족.</p>
-
-		<p class="H">그 누구의 잘못도 아니다.<br>단지 시대가 만들어낸 각각의 삶의 모습일 뿐이다.</p>
-
-	</div>
-</section>
 
 <footer></footer>
 </body>
 </html>
-
-
-
